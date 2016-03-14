@@ -30,6 +30,9 @@ setup(
     packages=[
         'wakeywakey'
     ],
+    install_requires=[
+        'slackclient'
+    ],
     entry_points={
         'console_scripts': [
             'wakeywakey = wakeywakey.app:main'
